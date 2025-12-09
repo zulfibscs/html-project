@@ -249,3 +249,65 @@ section>.wrapper{
   line-height: 34px;
   color: #58595D;
 }
+.your-brand-sec{
+  max-height: 1499 px;
+  padding-top: 109px;
+  padding-bottom: 109px;
+}
+.your-brand-heading{
+    text-align: center;
+
+}
+.your-brand-heading>h2{
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 76px;
+  margin: 0;
+  
+}
+.your-brand-heading>span{
+  font-size: 70px;
+  color: #009387;
+  font-weight: 300;
+  margin: 0;
+}
+.your-brand-img-sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.brand-imag1, .brand-imag3 {
+  max-width: 506px;
+  max-height: 410px;
+  background-color: #ffe0e0;
+  text-align: center;
+  padding: 40px;
+  border-radius: 6px;
+}
+.brand-imag2 {
+  max-width: 506px;
+  max-height: 410px;
+  background-color: #E0F8F2;
+  text-align: center;
+  padding: 40px;
+  border-radius: 6px;
+}
+.brand-imag1 h3,
+.brand-imag2 h3,
+.brand-imag3 h3{
+  padding-top: 44px;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+.brand-imag1 p,
+.brand-imag2 p,
+.brand-imag3 p{
+  font-size: 16px;
+  font-weight: 400;
+}
