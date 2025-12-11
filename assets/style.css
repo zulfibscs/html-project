@@ -332,3 +332,42 @@ text-align: start;
   font-size: 16px;
   font-weight: 400;
 }
+
+/* ++++++++++++++++
+Fast launch. Fast results. section
+==================== */
+.fast-launch-sec{
+  max-height: 899px;
+  background-color: #E3F8F8;
+}
+.fast-launch-sec h2{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 76px;
+  text-align: center;
+}
+.fast-launch-sec span{
+  font-size: 60px;
+
+  line-height: 76px;
+  color: #009387;
+  font-weight: 300;
+}
+.fast-launch-img{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 42px;
+  
+}
+.fast-launch-img h3{
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #78797a;
+  margin: 0;
+}
+.fast-launch-img-5 p{
+  margin-top: 0;
+
+}
