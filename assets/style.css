@@ -378,6 +378,9 @@ Fast launch. Fast results. section
   font-size: 30px;
   font-weight: bold;
 }
+.dtc{
+  overflow: clip;
+}
 .dtc h2{
   padding-top:95px ;
   padding-bottom: 74px;
@@ -385,6 +388,7 @@ Fast launch. Fast results. section
   font-weight: bold;
   line-height: 76px;
   text-align: center;
+  margin: 0;
 }
 .dtc span{
   font-size: 63px;
@@ -398,19 +402,20 @@ Fast launch. Fast results. section
 }
 .dtc-images-div{
   max-width: 410px;
-  height: 238px;
+  height: 161px;
   
   border: solid 1px black;
   border-radius: 15px;
-  padding: 30px;
+  padding: 10px 20px 40px 20px;
   gap: 35px;
+  
 
 }
 .dtc-sec-img {
   display: flex;
   gap: 30px;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
   
 }
 .inner-dtc{
@@ -430,4 +435,72 @@ Fast launch. Fast results. section
   font-size: 14px;
   font-weight: 300;
   line-height: 21px;
+}
+.dtc-btn{
+  padding-top: 153px;
+  padding-bottom: 96px;
+  justify-content: center;
+}
+.drive-profit-sec{
+  max-height: 905px;
+  background-color: #EEECFF;
+  display: flex;
+  gap: 64px;
+  padding-top: 96px;
+}
+.drive-profit-sec + img{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.drive-sec-heading h2{
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 55px;
+  margin: 0;
+  color: #2E2F35;
+}
+.drive-sec-heading span{
+  font-size: 63px;
+  font-weight: 300;
+  line-height: 76px;
+  color: #009387;
+}
+.drive-sec-heading p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #58595D;
+}
+.drive-3-heading-sec{
+  display: flex;
+  gap: 110px;
+  margin-top: 48px;
+}
+.drive-3-heading-sec div h2{
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0;
+}
+.drive-3-heading-sec div p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #58595D;
+  margin: 0;
+}
+.drive-btn{
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.drive-btn button{
+ 
+  color: #000 !important;
+  background-color: #ffffff;
+}
+.drive-last-img-section{
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
 }
