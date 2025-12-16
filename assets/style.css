@@ -504,3 +504,80 @@ Fast launch. Fast results. section
   justify-content: center;
   align-items: center;
 }
+/* ====================
+         Try Postpilot
+  ===================== */
+  .try-postpilot{
+    display: flex;
+    gap: 138px;
+    max-height: 600px;
+    background-color: #FF6D2C;
+  }
+  .left-sec-try-postpilot >h2{
+    font-size: 81px;
+    font-weight: bold;
+    line-height: 94px;
+    color: #FFFFFF;
+    padding-top: 95px;
+    margin: 0;
+  }
+  .left-sec-try-postpilot >p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #FFFFFF;
+  }
+  .try-postpilot-btn-section{
+    display: flex;
+    gap: 42px;
+    align-items: center;
+  }
+  .lg-btn-bg{
+    background-color: white;
+    color: #2b2a2a;
+    width: 190px;
+    height: 64px;
+    font-weight: 600;
+  }
+  .banner-star-try-postpilot>div> i{
+    color: white;
+  }
+  .banner-star-try-postpilot p{
+    margin: 0;
+    color: white;
+  }
+
+  /* Latest trends & insights */
+  .latest-trends{
+    max-height: 737px;
+    background-color: #F3FAFA;
+    padding-top: 95px;
+    padding-bottom: 96px;
+    
+  }
+  .latest-trends h2{
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 76px;
+    text-align: center;
+    padding-bottom: 64px;
+    margin: 0;
+  }
+  .latest-trends-img-sec{
+    display: flex;
+    gap: 30px;
+  }
+  .footer-cls{
+    max-height: 592px;
+    padding-top: 96px;
+    padding-bottom: 75px;
+
+  }
+  .upper-footer-part{
+    display: flex;
+    gap: 176px;
+    justify-content: center;
+    align-items: center;
+  }
+  .upper-footer-col1{
+  }
