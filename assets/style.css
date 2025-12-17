@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+*,*::after,
+*::after{
+  box-sizing: border-box;
+}
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* Special font for headings or creative text */
@@ -18,13 +21,14 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  justify-content: space-around;
   background-color: rgb(255, 255, 255);
   
 }
 .container {
   max-width: 1290px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 0;
 }
 
 /* logo css */
@@ -85,7 +89,7 @@ header {
              Banner CSS
 =================================================================*/
 .banner-section {
-  height: 756px;
+  min-height: 756px;
   background-color: #e0f8f2;
 }
 .banner-left-section {
@@ -97,7 +101,7 @@ section>.wrapper{
     background-color:#e0f8f2 ;
 }
 .banner-heading {
-  font-size: 82px;
+  font-size:clamp(32px,6vw,82px);
   font-weight: bold;
   line-height: 96px;
   color: #2e2f35;
@@ -226,6 +230,10 @@ section>.wrapper{
         margin: 0;
       }
     /* <!-- PostPilot section --> */
+    .full-postpilot-section{
+      
+      background-color: #FDF3EA;
+    }
     .postpilot-section{
       max-height: 2637px;
       background-color: #FDF3EA;
@@ -641,4 +649,8 @@ gap: 50px;
   width: 81px;
   height: 79px;
 
+}
+/* MOBILE (max-width: 768px) */
+@media(max-width:786px){
+  /* container padding */
 }
