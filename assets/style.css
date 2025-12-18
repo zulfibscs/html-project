@@ -659,7 +659,23 @@ gap: 50px;
   height: 79px;
 
 }
-/* MOBILE (max-width: 768px) */
-@media(max-width:786px){
+/* MOBILE (Small screens ≤ 767px) */
+@media(max-width:767px){
   /* container padding */
+ /* Stack all sections */
+  section > .wrapper {
+    flex-direction: column;
+    padding: 32px 16px;
+  }
+.header-section{
+  flex-direction: column;
+  gap: 20px;
+}
+.header-right-section{
+  flex-direction: column;
+  gap: 20px;
+}
+.banner-heading{
+  padding-top: 32px;
+}
 }
